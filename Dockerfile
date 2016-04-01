@@ -11,4 +11,4 @@ RUN mv testlink-1.9.14/* /var/www/
 RUN chown www-data /var/www/testlink-1.9.14
 
 EXPOSE 80
-ENTRYPOINT ["bash","baasbox/start"]
+ENTRYPOINT ["bash","tmp/start"]
